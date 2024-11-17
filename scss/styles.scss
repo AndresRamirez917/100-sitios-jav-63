@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+$font-stack: "Montserrat", sans-serif;
+
+html, body {
+    font-family: $font-stack;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 300px;
+    color: #fff;
+    line-height: 60px;
+    margin-bottom: 2rem;
+}
+
+.subtitle {
+    font-size: 2rem;
+    font-weight: 300;
+
+}
+
+.container {
+    max-width: 1300px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.main-width {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex: 1;
+    gap: 50px;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+}
+
+.button-1 {
+    border: 1px solid #fff;
+}
+
+form {
+    .form-group {
+        margin-bottom: 1rem;
+    }
+    .form-control {
+        display: block;
+        width: 100%;
+        padding: 1rem;
+        border-radius: 5px;
+    }
+    button {
+        width: 100%;
+        background: #090909;
+        margin-bottom: 2rem;
+    }
+}
+
+//iconos font awesome
+::placeholder {
+    font-family: "Font Awesome 5 Free"; font-weight: 600; content: "\f007";
+    text-align: right;
+}
+
+
+//mainheader
+#mainheader {
+    background: linear-gradient(blue, rgb(143, 143, 241));
+    padding-bottom: 2rem;
+    .navbar {
+        .logo {
+            width: 50px;
+        }
+        ul {
+            margin-top: 1rem;
+            display: flex;
+            li {
+                display: inline-block;
+                margin-left: 1rem;
+            }
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+                height: 100%;
+        }
+    }
+    #showcase {
+        .showcase-content {
+            margin-top: 5rem;
+            text-align: center;
+            p {
+                width: 80%;
+                margin: 0 auto;
+                margin-bottom: 2rem;
+                line-height: 40px;
+                color: #fff;
+            }
+           .button-1 {
+            display: block;
+            margin: 0 auto;
+            width: fit-content;
+           }
+        }
+    }
+}
+
+//bio
+#bio {
+    margin: 9rem 0;
+    .bio-row {
+        img {
+            width: 60%;
+        }
+        .bio-text {
+            h3 {
+                margin-bottom: 3rem;
+                font-size: 2rem;
+                font-weight: 400;
+            }
+            p {
+                width: 100%;
+                line-height: 20px;
+            }
+        }
+    }
+}
+
+//services
+#services {
+    width: 80%;
+    margin: 0 auto;
+    h2 {
+        text-align: center;
+        margin: 2rem 0 1rem 0;
+    }
+    hr {
+        text-align: center;
+        margin: 0 auto;
+        width: 20%;
+    }
+    .services-row {
+        text-align: center;
+        margin: 3rem 0;
+        display: flex;
+        flex: 1;
+        gap: 50px;
+        img {  
+            margin-bottom: 1rem;
+        }
+        p {
+            font-weight: 300;
+        }
+    }
+}
+
+//projects
+#projects {
+    background: url("/images/details.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+ .projects-row {
+    margin: 4rem 0 4rem 0;
+    flex: 1;
+    margin: 30;
+    hr {
+        margin: 1rem 0;
+    }
+    .box {
+        margin-bottom: 4rem;
+    }
+ }
+}
+
+//contact
+#contact {
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        margin: 3rem 0;
+    }
+    form {
+        .flex {
+            display: flex;
+            gap: 20px;
+        }
+        .flex-box-1 {
+            flex: 1;
+        }
+    }
+}
+
+//footer
+#footer {
+    .social-row {
+        width: 20%;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+    text-align: center;
+    padding: 3rem 0;
+    background: linear-gradient(blue, rgb(143, 143, 241));
+
+}

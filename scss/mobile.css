@@ -1,0 +1,53 @@
+#mainheader .navbar .logo {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+#mainheader .navbar ul {
+  display: block;
+  text-align: center;
+}
+#mainheader .navbar ul li {
+  display: block;
+}
+#mainheader .navbar .container {
+  display: block;
+}
+
+#bio {
+  margin: 0;
+  margin-top: 3rem;
+}
+#bio .bio-row {
+  display: block;
+}
+#bio .bio-row h3 {
+  text-align: center;
+}
+#bio .bio-row p {
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+#bio .bio-row img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+#projects .container {
+  display: block;
+  padding-bottom: 1rem;
+}
+#projects .box {
+  display: none;
+}
+
+#footer .social-row {
+  display: block;
+}
+
+#services .services-row {
+  display: block;
+}
+#services .services-row .boxx-2 {
+  margin: 1rem 0;
+}/*# sourceMappingURL=mobile.css.map */
