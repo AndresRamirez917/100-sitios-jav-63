@@ -195,17 +195,27 @@ form {
     background-position: center;
     background-size: cover;
     color: #fff;
- .projects-row {
-    margin: 4rem 0 4rem 0;
-    flex: 1;
-    margin: 30;
-    hr {
-        margin: 1rem 0;
+    .container {
+        .projects-row {
+           margin: 4rem 0 4rem 0;
+           flex: 1;
+           margin: 30;
+           hr {
+               margin: 1rem 0;
+           }
+           .box {
+               padding-top: 3rem;
+               margin-bottom: 6rem;
+               img {
+                border-radius: 50%;
+               }
+            }
+            .box:nth-child(odd) {
+                position: absolute;
+                margin-left: 150px;
+              }
+        }
     }
-    .box {
-        margin-bottom: 4rem;
-    }
- }
 }
 
 //contact

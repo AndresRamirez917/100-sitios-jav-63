@@ -186,16 +186,24 @@ form button {
   background-size: cover;
   color: #fff;
 }
-#projects .projects-row {
+#projects .container .projects-row {
   margin: 4rem 0 4rem 0;
   flex: 1;
   margin: 30;
 }
-#projects .projects-row hr {
+#projects .container .projects-row hr {
   margin: 1rem 0;
 }
-#projects .projects-row .box {
-  margin-bottom: 4rem;
+#projects .container .projects-row .box {
+  padding-top: 3rem;
+  margin-bottom: 6rem;
+}
+#projects .container .projects-row .box img {
+  border-radius: 50%;
+}
+#projects .container .projects-row .box:nth-child(odd) {
+  position: absolute;
+  margin-left: 150px;
 }
 
 #contact h2 {
